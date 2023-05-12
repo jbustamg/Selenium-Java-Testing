@@ -1,0 +1,14 @@
+{
+  "workerId": "forkProductBiblioData",
+  "maxTasks": 1,
+  "usePriority": true,
+  "topics": [
+    {
+      "topicName": "forkProductBiblioData",
+      "lockDuration": 5000,
+      "variables": [
+        "ONLINE_USER"
+      ]
+    }
+  ]
+}

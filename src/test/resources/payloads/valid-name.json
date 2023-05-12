@@ -1,0 +1,28 @@
+{
+   "type":"InformationRepProduct",
+   "revision":1,
+   "attachment": {
+      "id": "bc0bd5a4-15f2-46b8-b0a9-acb5406a49d5",
+      "assignedFileName":"0eb1a3ac-a96d-4cd5-b26e-d90bf6567ebe.pdf",
+      "originalFileName":"36740016-d4b7-48f2-af1e-26ff63a6bdf1.pdf",
+      "docCode": "INCANNEX",
+      "size": "13031",
+      "section": "NAME.files",
+      "path": "99819/19a42f38-309f-45cb-8063-1abc36f0a999/evidences"
+   },
+   "request":{
+      "operation":"CHANGE",
+      "draftingStage":false,
+      "type":"InformationRepRequest",
+      "representative":{
+         "clientId":"101105653",
+         "representativeId":"9264740",
+         "firstName":"Test",
+         "lastName":"Test"
+      }
+   },
+   "data":{
+      "type":"InformationRepData"
+   },
+   "productCode":"REPRESENTATIVE_DATA"
+}

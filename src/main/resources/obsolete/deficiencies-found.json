@@ -1,0 +1,11 @@
+{
+  "deficiencies": {
+    "CLASSIFICATION": [
+      {
+        "explanation": "Malformed data",
+        "byPhone": true,
+        "minutes": "n/a"
+      }
+    ]
+  }
+}

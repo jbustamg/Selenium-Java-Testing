@@ -1,0 +1,117 @@
+{
+  "request": {
+    "option": "APPROVAL",
+    "type": "IgraReplyRequest",
+    "isPublic": true,
+    "reasoningFiles": [],
+    "requestDecision": false,
+    "requestFurtherProcessing": false
+  },
+  "subRequests": {
+    "claims-translations": {
+      "type": "ClaimsTranslationsRequest",
+      "alreadyUploaded": true,
+      "numberOfClaimsVerified": false
+    },
+    "biblio-data-update": {
+      "changes": {
+        "TITLE": {
+          "changeItems": [
+            {
+              "type": "replace",
+              "path": "bibliodata.title",
+              "value": "\"EN TITLE\""
+            }
+          ],
+          "evidenceFiles": []
+        },
+        "APPLICANT": {
+          "changeItems": [
+            {
+              "type": "replace",
+              "path": "bibliodata.applicants",
+              "value": "[{\"name\":\"Solas Science & Engineering Co., Ltd.\",\"address\":{\"city\":\"Taichung City 408\",\"country\":\"TW\",\"address\":\"No. 37, 35th Road\\nTaichung Industrial Park\"},\"designatedStates\":[{\"state\":\"AL\",\"status\":true},{\"state\":\"AT\",\"status\":true},{\"state\":\"BE\",\"status\":true},{\"state\":\"BG\",\"status\":true},{\"state\":\"CH\",\"status\":true},{\"state\":\"CY\",\"status\":true},{\"state\":\"CZ\",\"status\":true},{\"state\":\"DE\",\"status\":true},{\"state\":\"DK\",\"status\":true},{\"state\":\"EE\",\"status\":true},{\"state\":\"ES\",\"status\":true},{\"state\":\"FI\",\"status\":true},{\"state\":\"FR\",\"status\":true},{\"state\":\"GB\",\"status\":true},{\"state\":\"GR\",\"status\":true},{\"state\":\"HR\",\"status\":true},{\"state\":\"HU\",\"status\":true},{\"state\":\"IE\",\"status\":true},{\"state\":\"IS\",\"status\":true},{\"state\":\"IT\",\"status\":true},{\"state\":\"LI\",\"status\":true},{\"state\":\"LT\",\"status\":true},{\"state\":\"LU\",\"status\":true},{\"state\":\"LV\",\"status\":true},{\"state\":\"MC\",\"status\":true},{\"state\":\"MK\",\"status\":true},{\"state\":\"MT\",\"status\":true},{\"state\":\"NL\",\"status\":true},{\"state\":\"NO\",\"status\":true},{\"state\":\"PL\",\"status\":true},{\"state\":\"PT\",\"status\":true},{\"state\":\"RO\",\"status\":true},{\"state\":\"RS\",\"status\":true},{\"state\":\"SE\",\"status\":true},{\"state\":\"SI\",\"status\":true},{\"state\":\"SK\",\"status\":true},{\"state\":\"SM\",\"status\":true},{\"state\":\"TR\",\"status\":true}],\"index\":0,\"memberStates\":[{\"state\":\"AL\",\"status\":false},{\"state\":\"AT\",\"status\":false},{\"state\":\"BE\",\"status\":false},{\"state\":\"BG\",\"status\":false},{\"state\":\"CH\",\"status\":false},{\"state\":\"CY\",\"status\":true},{\"state\":\"CZ\",\"status\":true},{\"state\":\"DE\",\"status\":true},{\"state\":\"DK\",\"status\":true},{\"state\":\"EE\",\"status\":true},{\"state\":\"ES\",\"status\":true},{\"state\":\"FI\",\"status\":true},{\"state\":\"FR\",\"status\":true},{\"state\":\"GB\",\"status\":true},{\"state\":\"GR\",\"status\":true},{\"state\":\"HR\",\"status\":true},{\"state\":\"HU\",\"status\":true},{\"state\":\"IE\",\"status\":true},{\"state\":\"IS\",\"status\":true},{\"state\":\"IT\",\"status\":true},{\"state\":\"LI\",\"status\":true},{\"state\":\"LT\",\"status\":true},{\"state\":\"LU\",\"status\":true},{\"state\":\"LV\",\"status\":true},{\"state\":\"MC\",\"status\":true},{\"state\":\"MK\",\"status\":true},{\"state\":\"MT\",\"status\":true},{\"state\":\"NL\",\"status\":true},{\"state\":\"NO\",\"status\":true},{\"state\":\"PL\",\"status\":true},{\"state\":\"PT\",\"status\":true},{\"state\":\"RO\",\"status\":true},{\"state\":\"RS\",\"status\":true},{\"state\":\"SE\",\"status\":true},{\"state\":\"SI\",\"status\":true},{\"state\":\"SK\",\"status\":false},{\"state\":\"SM\",\"status\":false},{\"state\":\"TR\",\"status\":true}],\"extensionStates\":[],\"validationStates\":[],\"futureValidationStates\":[],\"randomId\":\"f7c9\",\"contractingStates\":[{\"state\":\"AL\",\"status\":true},{\"state\":\"AT\",\"status\":true},{\"state\":\"BE\",\"status\":true},{\"state\":\"BG\",\"status\":true},{\"state\":\"CH\",\"status\":true},{\"state\":\"CY\",\"status\":true},{\"state\":\"CZ\",\"status\":true},{\"state\":\"DE\",\"status\":true},{\"state\":\"DK\",\"status\":true},{\"state\":\"EE\",\"status\":true},{\"state\":\"ES\",\"status\":true},{\"state\":\"FI\",\"status\":true},{\"state\":\"FR\",\"status\":true},{\"state\":\"GB\",\"status\":true},{\"state\":\"GR\",\"status\":true},{\"state\":\"HR\",\"status\":true},{\"state\":\"HU\",\"status\":true},{\"state\":\"IE\",\"status\":true},{\"state\":\"IS\",\"status\":true},{\"state\":\"IT\",\"status\":true},{\"state\":\"LI\",\"status\":true},{\"state\":\"LT\",\"status\":true},{\"state\":\"LU\",\"status\":true},{\"state\":\"LV\",\"status\":true},{\"state\":\"MC\",\"status\":true},{\"state\":\"MK\",\"status\":true},{\"state\":\"MT\",\"status\":true},{\"state\":\"NL\",\"status\":true},{\"state\":\"NO\",\"status\":true},{\"state\":\"PL\",\"status\":true},{\"state\":\"PT\",\"status\":true},{\"state\":\"RO\",\"status\":true},{\"state\":\"RS\",\"status\":true},{\"state\":\"SE\",\"status\":true},{\"state\":\"SI\",\"status\":true},{\"state\":\"SK\",\"status\":true},{\"state\":\"SM\",\"status\":true},{\"state\":\"TR\",\"status\":true}]}]"
+            }
+          ],
+          "evidenceFiles": []
+        },
+        "INVENTOR": {
+          "changeItems": [
+            {
+              "type": "add",
+              "path": "bibliodata.INVENTOR[1].name",
+              "value": "\"TEST\""
+            },
+            {
+              "type": "add",
+              "path": "bibliodata.INVENTOR[1].address.city",
+              "value": "\"93000\""
+            },
+            {
+              "type": "add",
+              "path": "bibliodata.INVENTOR[1].address.country",
+              "value": "\"AL\""
+            },
+            {
+              "type": "add",
+              "path": "bibliodata.INVENTOR[1].rightsAcquired",
+              "value": "2"
+            },
+            {
+              "type": "add",
+              "path": "bibliodata.INVENTOR[1].dateOfDesignation",
+              "value": "\"2021-08-25T00:00:00.000Z\""
+            },
+            {
+              "type": "add",
+              "path": "bibliodata.INVENTOR[1].randomId",
+              "value": "\"37a8\""
+            },
+            {
+              "type": "add",
+              "path": "bibliodata.INVENTOR[1].published",
+              "value": "false"
+            },
+            {
+              "type": "add",
+              "path": "bibliodata.INVENTOR[1].notifyRule",
+              "value": "true"
+            },
+            {
+              "type": "add",
+              "path": "bibliodata.INVENTOR[1].index",
+              "value": "1"
+            }
+          ],
+          "evidenceFiles": []
+        },
+        "PRIORITY_DATA": {
+          "changeItems": [
+            {
+              "type": "add",
+              "path": "bibliodata.priorityData[1].earlyApplication",
+              "value": "\"PCT/AL2020/999999\""
+            },
+            {
+              "type": "add",
+              "path": "bibliodata.priorityData[1].date",
+              "value": "\"2021-08-25T00:00:00.000Z\""
+            },
+            {
+              "type": "add",
+              "path": "bibliodata.priorityData[1].country",
+              "value": "\"AL\""
+            },
+            {
+              "type": "add",
+              "path": "bibliodata.priorityData[1].index",
+              "value": "1"
+            }
+          ],
+          "evidenceFiles": []
+        }
+      },
+      "type": "BiblioDataUpdateRequest"
+    }
+  }
+}

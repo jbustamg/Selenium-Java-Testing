@@ -1,0 +1,25 @@
+{
+   "type":"InformationRepProduct",
+   "revision":1,
+   "request":{
+      "operation":"CHANGE",
+      "draftingStage":false,
+      "type":"InformationRepRequest",
+      "representative":{
+         "clientId":"101105653",
+         "representativeId":"9264740",
+         "address":{
+            "addressLine1":"Address 1",
+            "addressLine2":"Address 2",
+            "addressLine3":"Address 3",
+            "addressLine4":"Address 4",
+            "addressCountry":"TR",
+            "addressCity":""
+         }
+      }
+   },
+   "data":{
+      "type":"InformationRepData"
+   },
+   "productCode":"REPRESENTATIVE_DATA"
+}

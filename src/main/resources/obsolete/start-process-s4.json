@@ -1,0 +1,68 @@
+{
+  "variables": {
+    "FO_TEAM": {
+      "value": "123",
+      "type": "String"
+    },
+    "FO_EXPERT_TEAM": {
+      "value": "123",
+      "type": "String"
+    },
+    "OCFD_TEAM": {
+      "value": "123",
+      "type": "String"
+    },
+    "APPLICATION_NUMBER": {
+      "value": "EP08169873",
+      "type": "String"
+    },
+    "ORDER_TS": {
+      "value": "2011-03-29 22:05:53.387772",
+      "type": "String"
+    },
+    "BIBLIO_DATA_UPDATE_REQUESTED": {
+      "value": false,
+      "type": "Boolean"
+    },
+    "CLAIMS_TRANSLATIONS_REQUESTED": {
+      "value": false,
+      "type": "Boolean"
+    },
+    "DECISION_REQUESTED": {
+      "value": false,
+      "type": "Boolean"
+    },
+    "DECISON_APPROVED": {
+      "value": false,
+      "type": "Boolean"
+    },
+    "SUBSTANTIAL_AMENDMENTS_REQUESTED": {
+      "value": false,
+      "type": "Boolean"
+    },
+    "MERE_DISAPPROVAL_REQUESTED": {
+      "value": false,
+      "type": "Boolean"
+    },
+    "RFPR_REQUESTED": {
+      "value": false,
+      "type": "Boolean"
+    },
+    "FIRST_EXAMINER": {
+      "value": "AA11111",
+      "type": "String"
+    },
+    "ASSOCIATION_ID": {
+      "value": "123",
+      "type": "String"
+    },
+    "REPRESENTATIVE_ID": {
+      "value": "9000510",
+      "type": "String"
+    },
+    "Time Limit Expired": {
+      "value": false,
+      "type": "Boolean"
+    }
+  }
+}

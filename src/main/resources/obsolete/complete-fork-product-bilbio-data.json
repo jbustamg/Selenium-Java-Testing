@@ -1,0 +1,9 @@
+{
+  "workerId": "examination-workflow-workers-test-bc4b95b67-mgzzc30e04a98-fb46-4427-bd03-75d3778314ef",
+  "variables": {
+    "PARENT_PROCESS": {
+      "value": true
+    }
+  },
+  "localVariables": {}
+}

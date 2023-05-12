@@ -1,0 +1,14 @@
+{
+  "workerId": "examination-workflow-workers-test-846dd5fccf-dl5c8c7c29600-1e30-4b16-afaf-16cc979a0589",
+  "maxTasks": 1,
+  "usePriority": true,
+  "topics": [
+    {
+      "topicName": "fetchPGPData",
+      "lockDuration": 5000,
+      "variables": [
+        "ONLINE_USER"
+      ]
+    }
+  ]
+}

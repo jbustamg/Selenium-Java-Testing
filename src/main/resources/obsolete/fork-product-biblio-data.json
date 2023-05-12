@@ -1,0 +1,14 @@
+{
+  "workerId": "examination-workflow-workers-test-bc4b95b67-mgzzc30e04a98-fb46-4427-bd03-75d3778314ef",
+  "maxTasks": 1,
+  "usePriority": true,
+  "topics": [
+    {
+      "topicName": "forkProductBiblioData",
+      "lockDuration": 5000,
+      "variables": [
+        "ONLINE_USER"
+      ]
+    }
+  ]
+}

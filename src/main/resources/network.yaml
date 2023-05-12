@@ -1,0 +1,4 @@
+enableRecording: true
+wsHost: wss://marina.internal.epo.org/test-automation/selenoid-k8s-master/
+intercept: [ 'XHR', 'FETCH', 'DOCUMENT' ] # STYLESHEET, IMAGE, MEDIA, FONT, SCRIPT, TEXT_TRACK, EVENT_SOURCE, WEB_SOCKET, MANIFEST, SIGNED_EXCHANGE, PING, CSP_VIOLATION_REPORT, PREFLIGHT, OTHER
+withResponseBody: true

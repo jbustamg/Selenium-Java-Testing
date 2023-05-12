@@ -1,0 +1,51 @@
+{
+  "request": {
+    "option": "APPROVAL",
+    "type": "IgraReplyRequest",
+    "isPublic": true,
+    "reasoningFiles": [],
+    "requestDecision": false,
+    "requestFurtherProcessing": false
+  },
+  "subRequests": {
+    "claims-translations": {
+      "type": "ClaimsTranslationsRequest",
+      "alreadyUploaded": false
+    },
+    "biblio-data-update": {
+      "changes": {
+        "INVENTOR": {
+          "changeItems": [
+            {
+              "type": "replace",
+              "path": "bibliodata.INVENTOR[0].published",
+              "value": "true"
+            },
+            {
+              "type": "replace",
+              "path": "bibliodata.INVENTOR[0].notifyRule",
+              "value": "true"
+            },
+            {
+              "type": "replace",
+              "path": "bibliodata.INVENTOR[0].lastName",
+              "value": "\"LastName\""
+            },
+            {
+              "type": "replace",
+              "path": "bibliodata.INVENTOR[0].firstName",
+              "value": "\"FirstName\""
+            },
+            {
+              "type": "replace",
+              "path": "bibliodata.INVENTOR[0].address",
+              "value": "{\"address\":\"10000 \",\"city\":\"00128 Roma\",\"country\":\"MA\",\"zipCode\":\"10000\"}"
+            }
+          ],
+          "evidenceFiles": []
+        }
+      },
+      "type": "BiblioDataUpdateRequest"
+    }
+  }
+}

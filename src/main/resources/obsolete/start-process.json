@@ -1,0 +1,75 @@
+{
+  "variables": {
+    "ONLINE_USER": {
+      "value": "000101520",
+      "type": "String"
+    },
+    "FO_TEAM": {
+      "value": "1208_DEPT_Team Formalities (1208)",
+      "type": "String"
+    },
+    "FO_EXPERT_TEAM": {
+      "value": "1208_DEPT_Team Formalities (1208)",
+      "type": "String"
+    },
+    "OCFD_TEAM": {
+      "value": "1208_DEPT_Team Formalities (1208)",
+      "type": "String"
+    },
+    "APPLICATION_NUMBER": {
+      "value": "EPA11002387",
+      "type": "String"
+    },
+    "DOSSIER_NUMBER": {
+      "value": "EP11002387",
+      "type": "String"
+    },
+    "FO_LEAVE": {
+      "value": false,
+      "type": "Boolean"
+    },
+    "ORDER_TS": {
+      "value": "2011-03-29 22:05:53.387772",
+      "type": "String"
+    },
+    "ACTION_TYPE": {
+      "value": "IGRA",
+      "type": "String"
+    },
+    "START_AT": {
+      "value": "2021-03-29T17:10:36.433+0200",
+      "type": "String"
+    },
+    "BIBLIO_CHANGES_REQUESTED": {
+      "value": true,
+      "type": "Boolean"
+    },
+    "AMENDMENTS_REQUESTED": {
+      "value": false,
+      "type": "Boolean"
+    },
+    "TRANSLATIONS_SUBMITTED": {
+      "value": false,
+      "type": "Boolean"
+    },
+    "FIRST_EXAMINER": {
+      "value": "JM89372",
+      "type": "String"
+    },
+    "FIRST_EXAMINER_FIRST_NAME": {
+      "value": "Jini",
+      "type": "String"
+    },
+    "FIRST_EXAMINER_LAST_NAME": {
+      "value": "Mutta",
+      "type": "String"
+    },
+    "SECOND_EXAMINER": {
+      "value": "CB03320",
+      "type": "String"
+    },
+    "ReviewBilbioEndEvent": {},
+    "ReviewAmendmentsEndEvent": {}
+  },
+  "businessKey": "NEF_Reply_to_IGRA_v2"
+}

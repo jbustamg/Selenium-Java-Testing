@@ -1,0 +1,18 @@
+{
+   "type":"InformationRepProduct",
+   "revision":1,
+   "request":{
+      "operation":"CHANGE",
+      "draftingStage":false,
+      "type":"InformationRepRequest",
+      "representative":{
+         "clientId":"101105653",
+         "representativeId":"9264740",
+         "nationality":"TR"
+      }
+   },
+   "data":{
+      "type":"InformationRepData"
+   },
+   "productCode":"REPRESENTATIVE_DATA"
+}
